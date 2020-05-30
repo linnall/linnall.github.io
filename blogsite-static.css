@@ -1,0 +1,58 @@
+#content{
+    text-align: center;
+    padding-top: 20%;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+h2{
+    padding-top: 20%;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+#personal-photo{
+    width: 50%;
+    /*gets rid of whitespace that browser adds*/
+    float: left;
+    padding-top: 25%;
+    margin-left: 25%;
+}
+
+.container {
+    padding-top: 25%;
+}
+
+.filler {
+    background-color: pink;
+    padding: 10%;
+    border-radius: 2%;
+    
+}
+
+.entry-title {
+    padding-left: 10px;
+}
+
+.blog-entry-text {
+    border-left: 5px solid white;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.blog-entry-text-rest {
+    font-size: 15px;
+}
+
+.spacing div {
+    margin: 1.66%;
+}
