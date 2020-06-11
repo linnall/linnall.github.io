@@ -1,0 +1,13 @@
+body{
+    background: url(https://images.unsplash.com/photo-1486927181919-3ac1fc3a8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80);
+    background-size: cover;
+    background-position: fixed;
+
+    max-width: 700px;
+    /*width when the screen is less than 700px*/
+    width: 80%;
+    
+    margin: 30px auto;
+    border: 10px #bdc3c7 solid;
+    font-family: 'Source Sans Pro', sans-serif;
+}
