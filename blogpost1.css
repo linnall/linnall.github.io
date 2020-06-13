@@ -2,12 +2,39 @@ body{
     background: url(https://images.unsplash.com/photo-1486927181919-3ac1fc3a8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80);
     background-size: cover;
     background-position: fixed;
+}
+
+div{
+    line-height: 1.5em;
 
     max-width: 700px;
     /*width when the screen is less than 700px*/
     width: 80%;
     
     margin: 30px auto;
-    border: 10px #bdc3c7 solid;
+    
     font-family: 'Source Sans Pro', sans-serif;
+
+    color: white;
+}
+
+.post{
+    border: 10px rgba(0, 0, 0, 0.699) solid;
+}
+
+.firstp{
+    border-left: 5px solid rgba(0, 0, 0, 0.644);
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.bodyp{
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.text-highlight{
+    background-color: rgba(56, 141, 162, 0.849);
 }
