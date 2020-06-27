@@ -56,3 +56,16 @@ p {
 .spacing div {
     margin: 1.66%;
 }
+
+.icon{
+    width: 30%;
+    align-content: center;
+}
+
+.zoom{
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
