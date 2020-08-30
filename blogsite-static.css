@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(https://images.unsplash.com/photo-1486927181919-3ac1fc3a8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80);
+    background: url(https://images.unsplash.com/photo-1584985598389-3a36cb7aa1c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -13,11 +13,13 @@ body{
 
 h2{
     padding-top: 20%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
     font-size: 25px;
-    color: white;
+    color: rgb(250, 247, 218);
+    font-family: 'Quicksand', sans-serif;
 }
 
 #personal-photo{
@@ -28,15 +30,23 @@ p {
     margin-left: 25%;
 }
 
+#projects{
+    padding-top: 20%;
+}
+
 .container {
-    padding-top: 25%;
+    padding-top: 2%;
 }
 
 .filler {
-    background-color: rgb(56, 141, 162);
+    background-color:  rgb(243, 237, 183, 0.911);
     padding: 10%;
     border-radius: 2%;
     
+}
+
+#blog-stuff{
+    padding-top: 40%;
 }
 
 .entry-title {
@@ -44,7 +54,7 @@ p {
 }
 
 .blog-entry-text {
-    border-left: 5px solid white;
+    border-left: 5px solid rgba(243, 237, 183, 0.911);
     padding-left: 10px;
     font-size: 15px;
 }
@@ -58,8 +68,9 @@ p {
 }
 
 .icon{
-    width: 30%;
-    align-content: center;
+    width: 50%;
+    padding-top: 40%;
+    /*align-content: center;*/
 }
 
 .zoom{
