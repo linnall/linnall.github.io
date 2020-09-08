@@ -1,6 +1,6 @@
 #content{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 body{
@@ -22,16 +22,20 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
+/*does this work?*/
+.navbar-inverse {
+    background: #2c3e50;
+}
+
 #personal-photo{
-    width: 50%;
-    /*gets rid of whitespace that browser adds*/
-    float: left;
-    padding-top: 25%;
-    margin-left: 25%;
+    width: 60%;
+    margin-right: 15%;
+    float: right;
+    
 }
 
 #projects{
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 .container {
@@ -46,7 +50,7 @@ p {
 }
 
 #blog-stuff{
-    padding-top: 40%;
+    padding-top: 10%;
 }
 
 .entry-title {
@@ -79,4 +83,8 @@ p {
 
 .zoom:hover {
     transform: scale(1.05);
+}
+
+#block-text{
+    color: rgb(51, 51, 51);
 }
